@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+      background-color: #C0C0C0;
+    
+}
+
+
+header {
+    font-family: 'Varela', serif;
+    padding-top: 40;
+    padding-bottom: 40;
+    background-color:#000000;
+    color: white;
+}
+
+.btn {
+    background-color:white ;
+}
+
+
+input {
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 35%;
+    background-color:white;
+}
+
+@media screen and (max-width: 500px) {
+    input {
+        width: 100%;
+    }
+}
