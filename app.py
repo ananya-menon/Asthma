@@ -30,9 +30,9 @@ def predict():
     print (output)
     
     if output == 0:
-        return render_template('Asthma.html', prediction_text= 'Asthma : No')
+        return render_template('Asthma.html', prediction_text= 'Yipeeeee ! You shall not suffer from Asthma :)')
     else:
-        return render_template('Asthma.html', prediction_text= 'Asthma : Yes')
+        return render_template('Asthma.html', prediction_text= 'Ouch! You might suffer from Asthma :(')
 
 
 if __name__ == "__main__":
